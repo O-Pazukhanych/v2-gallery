@@ -4,9 +4,9 @@
 
 		data: () => ({
 			items: [
-				{ title: 'Home' },
-				{ title: 'About' },
-				{ title: 'Contact' },
+				{ href: '/', title: 'Home' },
+				{ href: '/about', title: 'About' },
+				{ href: '/contacts', title: 'Contact' },
 			],
 		}),
 	}
@@ -25,7 +25,9 @@
 					v-for="(item, index) in items"
 					:key="index"
 				>
-					{{item.title}}
+					<router-link :to="item.href">
+						{{item.title}}
+					</router-link>
 				</v-btn>
 			</v-toolbar-items>
 			<v-toolbar-items v-else>

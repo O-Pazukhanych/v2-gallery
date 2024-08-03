@@ -1,8 +1,5 @@
 <script>
 	import Header from './components/Header.vue';
-	import Hero from "@/components/Hero.vue";
-	import Gallery from "@/components/Gallery.vue";
-	import LatestPost from "@/components/LatestPost.vue";
 	import Footer from "@/components/Footer.vue";
 
 	export default {
@@ -10,9 +7,6 @@
 
 		components: {
 			Header,
-			Hero,
-			Gallery,
-			LatestPost,
 			Footer
 		},
 
@@ -30,10 +24,8 @@
 			<Header/>
 		</v-app-bar>
 
-		<v-main>
-			<Hero />
-			<Gallery />
-			<LatestPost />
+		<v-main style="padding: 0">
+			<router-view />
 		</v-main>
 
 		<v-footer>
