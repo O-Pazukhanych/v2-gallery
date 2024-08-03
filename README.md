@@ -1,4 +1,4 @@
-# gallery
+# v2-Gallery
 
 ## Project setup
 ```
