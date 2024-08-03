@@ -2,6 +2,9 @@ header {
   .v-toolbar__title {
     font-weight: 600;
     text-transform: uppercase;
+    a {
+      color: $black !important;
+    }
   }
 
   .v-toolbar__content {
@@ -9,6 +12,11 @@ header {
       padding: 0;
     }
   }
+}
+
+a.router-link {
+  color: dimgray !important;
+  font-weight: 600;
 }
 
 .mainHeader {
@@ -29,4 +37,7 @@ header {
 
 .v-menu__content--fixed {
   top: 42px !important;
+  .router-link {
+    font-weight: 400;
+  }
 }

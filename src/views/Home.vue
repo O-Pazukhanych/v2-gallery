@@ -17,9 +17,9 @@
 </script>
 
 <template>
-	<v-content>
+	<v-main tag="div">
 		<Hero />
 		<Gallery />
 		<LatestPost />
-	</v-content>
+	</v-main>
 </template>

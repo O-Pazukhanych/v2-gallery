@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-	<v-content>
+	<v-main tag="div">
 		Not Found
-	</v-content>
+	</v-main>
 </template>

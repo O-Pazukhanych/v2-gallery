@@ -27,7 +27,7 @@ export default {
 </script>
 
 <template>
-	<v-content>
+	<v-main tag="div">
 		<div class="staticHero">
 			<v-img
 				src="../assets/images/hero/static/img1.jpg"
@@ -89,5 +89,5 @@ export default {
 				</v-row>
 			</v-container>
 		</div>
-	</v-content>
+	</v-main>
 </template>
